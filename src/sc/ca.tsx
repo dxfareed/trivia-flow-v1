@@ -1,0 +1,6 @@
+//flow evm
+
+const MockUSDC = "0xe9E82211eAe28082ebD48bC80DCD534f176ecdAc";
+const CREATE_TRIVIA_CA = "0x95ecE45D2F1bbc838b5675c227A937C1B2bc56EC";
+
+export { MockUSDC, CREATE_TRIVIA_CA };
