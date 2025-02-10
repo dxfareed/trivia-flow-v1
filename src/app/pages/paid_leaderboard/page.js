@@ -101,7 +101,7 @@ export default function Leaderboard() {
           if (snapshot.exists()) {
             const transactionDetails = snapshot.val();
             const transactionHash = transactionDetails.transactionHash;
-            const link = `https://basescan.org/tx/${transactionHash}`;
+            const link = `https://evm-testnet.flowscan.io/tx/${transactionHash}`;
             setTransactionLink(link);
           }
         }
